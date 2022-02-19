@@ -10,18 +10,38 @@
       
 ## Technology
 
-      spring-boot-starter-parent - 2.4.2
-      lombok - 1.18.16
-      spring-boot-devtools - 2.3.4.RELEASE
+      Server side stack
+      
+          Spring Boot 2.4.2
+          lombok - 1.18.16
+          Spring Rest
+          Spring JPA
+          
+      Build/Compile
+       
+          JDK 11
+            
+      Database
+      
+           MySQL 8.0
+           
+      Build Tool
+      
+           Apache Maven 3.6.3
       
       
-## Package Info
+## Project Structure
 
       src.main.java.com.punith
-         |-- App -> Main class
-         |-- controller -> Controller classes
-         |-- Domain -> POJO classes
-         |-- Repository -> DB Interation classes
+         |__ App -> Main class
+         |__ controller -> Controller classes
+         |__ Domain -> POJO classes
+         |__ Repository -> DB Interation classes
+         
+
+## IDE Support
+
+        Eclipse 4.16
       
 
 ## Clone
